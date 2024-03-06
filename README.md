@@ -1,8 +1,42 @@
-# React + Vite
+# Blog-Brust
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Blog Burst project focuses on creating a platform that encourages bloggers create or update blog.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Tech Stack:
+
+- React
+- React-Router-Dom
+- Tailwind CSS
+- Tinymce
+- Redux
+- React-hook-form
+- Appwrite (Authentication and Storage)
+
+## 👩🏽‍🍳 Features:
+
+- **Account:**User can create or login up to the existing account.
+- **Add Blog:** User can add blog with content using Tinymce editor providing various formatting and styling features.
+- **Update Blog:** User can edit/update their exisiting blogs.
+
+## 🚦 Running the Project:
+
+1. **Clone and Install:**
+   ```bash
+   git clone https://github.com/Nneha19/BlogBrust.git
+   cd BlogBrust
+   npm i
+
+2.  **Run Development Server:**
+   
+        npm run dev
+    
+3.  **Navigate to Local Host:**
+   
+        http://localhost:5173/
+
+4. **Build Project**
+   
+        npm run build
+   
+
